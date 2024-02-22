@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">HadiSaleh_Conatct</string>
+    <string name="title_activity_contact_maps">ContactMapsActivity</string>
+    <string name="title_activity_conatct_settings">ConatctSettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_conatct_map">ConatctMapActivity</string>
+    <string name="title_activity_contact_setting">ContactSettingActivity</string>
+    <string name="title_activity_conatct_list">ConatctListActivity</string>
+    <string name="title_activity_conntact_map">ConntactMapActivity</string>
 </resources>
