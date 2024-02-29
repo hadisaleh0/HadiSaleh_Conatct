@@ -22,5 +22,6 @@ public class ContactMapActivity extends AppCompatActivity {
         listImageButton = findViewById(R.id.imageButtonList);
         mapImageButton = findViewById(R.id.imageButtonMap);
         settingsImageButton = findViewById(R.id.imageButtonSetting);
+        mapImageButton.setEnabled(false);
     }
 }

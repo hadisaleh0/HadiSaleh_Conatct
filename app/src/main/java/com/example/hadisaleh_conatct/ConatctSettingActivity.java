@@ -22,6 +22,7 @@ public class ConatctSettingActivity extends AppCompatActivity {
         listImageButton = findViewById(R.id.imageButtonList);
         mapImageButton = findViewById(R.id.imageButtonMap);
         settingsImageButton = findViewById(R.id.imageButtonSetting);
+        settingsImageButton.setEnabled(false);
     }
 
 }
