@@ -1,0 +1,34 @@
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+>
+
+<ImageButton
+    android:id="@+id/imageButtonList"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/list"
+    android:layout_weight="1"
+ />
+
+<ImageButton
+    android:id="@+id/imageButtonSetting"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/settings"
+    android:layout_weight="1"
+/>
+
+<ImageButton
+    android:id="@+id/imageButtonMap"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/map"
+    android:layout_weight="1"
+ />
+</LinearLayout>

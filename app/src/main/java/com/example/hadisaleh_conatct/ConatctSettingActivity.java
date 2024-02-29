@@ -15,7 +15,7 @@ public class ConatctSettingActivity extends AppCompatActivity {
         initLayouts();
 
         NavBarInitializer.initializeNavBar(listImageButton,mapImageButton,settingsImageButton,
-                ConatctSettingActivity.this);
+                this);
     }
 
     private void initLayouts() {
