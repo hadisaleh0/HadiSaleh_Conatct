@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         initLayouts();
 
         NavBarInitializer.initializeNavBar(listImageButton,mapImageButton,settingsImageButton,
-                MainActivity.this);
+                this);
     }
 
     private void initLayouts() {

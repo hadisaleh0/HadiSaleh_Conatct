@@ -15,7 +15,7 @@ public class ContactMapActivity extends AppCompatActivity {
         initLayouts();
 
         NavBarInitializer.initializeNavBar(listImageButton,mapImageButton,settingsImageButton,
-                ContactMapActivity.this);
+                this);
     }
 
     private void initLayouts() {
