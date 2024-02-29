@@ -14,9 +14,37 @@
         android:layout_height="wrap_content"
         />
 
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#B8B8B8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
+        <ToggleButton
+            android:id="@+id/toggleButtonEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/edit"
+            android:layout_marginEnd="64dp"
+            android:layout_marginStart="16dp"
+            android:text="ToggleButton" />
 
-
+        <ImageButton
+            android:id="@+id/imageButtonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="64dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/Navbar"
+            android:contentDescription="Save the contact"
+            app:srcCompat="@drawable/save" />
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

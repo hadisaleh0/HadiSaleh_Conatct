@@ -15,7 +15,9 @@ public class NavBarInitializer {
         listImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(context, ConatctListActivity.class);
+                Intent intent = new Intent(context, ContactListActivity.class);
+                context.startActivity(intent);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 context.startActivity(intent);
             }
         });
@@ -33,7 +35,9 @@ public class NavBarInitializer {
         settingImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(context, ConatctSettingActivity.class);
+                Intent intent = new Intent(context, ContactSettingActivity.class);
+                context.startActivity(intent);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 context.startActivity(intent);
             }
         });
