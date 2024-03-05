@@ -21,4 +21,6 @@
     <string name="title_activity_contact_setting">ContactSettingActivity</string>
     <string name="title_activity_conatct_list">ConatctListActivity</string>
     <string name="title_activity_conntact_map">ConntactMapActivity</string>
+    <string name="cancel" >Cancel</string>
+    <string name="save" >Save</string>
 </resources>
